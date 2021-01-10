@@ -1,0 +1,54 @@
+div {
+    display: block;
+}
+
+header, footer, main {
+    margin: auto;
+    max-width: 50vw;
+}
+
+header, footer {
+    
+    background-color: rgb(12, 122, 80);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    height: 100px;
+    
+}
+
+h1 {
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 2px 0;
+    padding-top: 10px;
+}
+
+#picSelf {
+    padding-top: 3px;
+    float: right;
+}
+
+img {
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    z-index: 100;
+    height: 200px;
+    width: auto;
+}
+
+footer {
+    height: 50px;
+}
+
+footer p { 
+    margin: 1px;
+}
+footer p a {
+    color: white;
+}

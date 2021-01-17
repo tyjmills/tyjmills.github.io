@@ -1,0 +1,69 @@
+header, footer, main {
+    margin: auto;
+    max-width: 50vw;
+}
+
+header, footer {
+    background-color: #036903;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    height: 100px;
+    
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 2px 0;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div {
+    grid-column: span 1;
+    text-align: center;
+    margin: 10px;
+    background-color: #f0d690;
+    border-radius: 15px;
+}
+
+li {
+    text-align: left;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.paragraph {
+    width: 200px;
+    margin-left: 20px;
+    text-align: left;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Xanh Mono', monospace;
+}
+
+footer {
+    height: 50px;
+}
+
+footer p { 
+    margin: 1px;
+}
+footer p a {
+    color: white;
+}

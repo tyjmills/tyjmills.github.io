@@ -1,0 +1,158 @@
+header, footer, main, nav {
+    margin: auto;
+    max-width: 75vw;
+}
+
+header, footer {
+    background-color: #29524a;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    height: 50px;
+    
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 2px 0;
+    padding-top: 10px;
+}
+
+nav {
+	background-color: #90aa86;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+    border-radius: 5px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #90aa86;
+}
+.active {
+	color: #f95738;
+}
+
+.titles {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.info {
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.listgroup {
+    list-style: none;
+}
+
+.list {
+    font-size: 10px;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.merri60 {
+    margin-left: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: #f95738;
+}
+
+.merri60 {
+    margin-left: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #f95738;
+}
+
+.merri20 {
+    margin-left: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #f95738;
+}
+
+.ubuntu30b {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f95738;
+}
+
+.ubuntu20b {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f95738;
+}
+
+.ubuntu16b {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f95738;
+}
+
+.ubuntu20 {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #f95738;
+}
+
+.ubuntu12 {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: #f95738;
+}
+
+.ubuntu10 {
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    color: #f95738;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+.colors {
+    height: auto;
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+footer p a {
+    color: white;
+}

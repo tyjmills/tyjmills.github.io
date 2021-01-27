@@ -44,7 +44,7 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
+	background-color: #b8ccc5;
 	color: #90aa86;
 }
 .active {
@@ -80,7 +80,7 @@ nav a:hover {
     color: #f95738;
 }
 
-.merri60 {
+.merri40 {
     margin-left: 20px;
     font-family: 'Merriweather', serif;
     font-size: 40px;

@@ -51,11 +51,8 @@ nav a:hover {
 	color: #f95738;
 }
 
-.titles {
-    margin-left: 10px;
-}
-
 h2 {
+    margin-left: 10px;
     font-size: 16px;
     font-weight: bolder;
     font-family: 'Xanh Mono', monospace;

@@ -45,10 +45,12 @@ nav ul li a {
 }
 nav a:hover {
 	background-color: #b8ccc5;
-	color: #90aa86;
+    color: black;
+    font-weight: bolder;
 }
 .active {
-	color: #f95738;
+    color:black;
+	/* color: #f95738; */
 }
 
 h2 {

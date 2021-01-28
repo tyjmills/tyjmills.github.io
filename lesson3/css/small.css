@@ -13,7 +13,6 @@ header, footer {
 
 header {
     height: 50px;
-    
 }
 
 h1 {
@@ -37,7 +36,8 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    color: #fff;
+    color: #4F0892;
+    /* color: #fff; */
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -80,21 +80,21 @@ h2 {
     margin-left: 20px;
     font-family: 'Merriweather', serif;
     font-size: 60px;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .merri40 {
     margin-left: 20px;
     font-family: 'Merriweather', serif;
     font-size: 40px;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .merri20 {
     margin-left: 20px;
     font-family: 'Merriweather', serif;
     font-size: 20px;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu30b {
@@ -102,7 +102,7 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu20b {
@@ -110,7 +110,7 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu16b {
@@ -118,28 +118,28 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu20 {
     margin-left: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu12 {
     margin-left: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
-    color: #f95738;
+    color: #4F0892;
 }
 
 .ubuntu10 {
     margin-left: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 10px;
-    color: #f95738;
+    color:#4F0892;
 }
 
 #logo {

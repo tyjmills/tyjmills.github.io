@@ -50,9 +50,7 @@ h1 {
 
 nav {
     margin: 0 auto;
-    height: 20px;
     box-shadow: 0 2px 15px gray;
-    margin-bottom: 50px;
 }
 
 .navigation {
@@ -61,7 +59,6 @@ nav {
     flex-flow: column;
 	margin: 0;
 	padding: 0;
-	overflow: overlay;
 }
 
 .navigation li:first-child {

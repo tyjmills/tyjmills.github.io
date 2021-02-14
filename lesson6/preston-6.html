@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 230 Preston town page for weather site project.">
-    <title>WDD 230: Preston Town Page Week 5</title>
+    <title>WDD 230: Preston Town Page Week 6</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Xanh+Mono&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -39,15 +39,32 @@
     <main>
         <h2>Preston Idaho</h2>
         <div id="heroarea">
-            <img src="images/heropicpreston.jpg" alt="Image of Preston Idaho">
+            <!-- <img src="images/heropicpreston.jpg" alt="Image of Preston Idaho"> -->
+            <picture>
+                <source srcset="images/wdd230_image_franklin_small.jpg" media="(max-width: 500px)">
+                <source srcset="images/wdd230_image_franklin_medium.jpg" media="(max-width: 950px)">
+                <source srcset="images/wdd230_image_franklin_large.jpg" media="(max-width: 1250px)">
+                <img src="images/wdd230_image_franklin_large.jpg" alt="Image of Preston Idaho">
+
+            </picture>
+            <!-- <img src="images/wdd230_image_franklin_large.jpg" alt="Image of Preston Idaho"
+                srcset="images/wdd230_image_franklin_small.jpg 200w,
+                images/wdd230_image_franklin_medium.jpg 400w,
+                images/wdd230_image_franklin_large.jpg 800w"
+                sizes="(max-width: 400px) 390px, (max-width: 800px) 800px, 1250px"
+            > -->
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
                 <hr>
-                <p class="suminfo">Currently: Sunny</p>
-                <p class="suminfo">High: 76 &#8457</p>
-                <p class="suminfo">Wind Chill: &#8457</p>
-                <p class="suminfo">Humidity: 69%</p>
-                <p class="suminfo">Wind Speed: 5 mph</p>
+                <p class="suminfo">Currently: </p><p class="sumsun">Sunny</p>
+                <br>
+                <p class="suminfo">High: </p><p class="sumtemp">76 &#8457</p>
+                <br>
+                <p class="suminfo">Wind Chill: </p><p class="sumchill">&#8457</p>
+                <br>
+                <p class="suminfo">Humidity: </p><p class="sumhumid">69%</p>
+                <br>
+                <p class="suminfo">Wind Speed: </p><p class="sumspeed">5 mph</p>
             </section>
         </div>
         <div class="forecasttable">
@@ -110,6 +127,13 @@
     </footer>
 
     <script src="js/scripts.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Ubuntu","Merriweather"]
+            }
+        });
+    </script>
 </body>
 </html>

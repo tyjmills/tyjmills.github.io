@@ -1,0 +1,42 @@
+table, th, td {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead, tfoot {
+    background-color: #7fb9c2;
+}
+
+thead {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+tbody {
+    font-size: 20px;
+}
+
+tbody tr th, .value {
+    color: white;
+    background-color: #628ca6;
+}
+
+tbody tr {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+}

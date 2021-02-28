@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 storm center input page for weather site project.">
+    <title>Storm Center</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Xanh+Mono&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/targettemp.png" alt="Target Temp Logo">
+        <section class="headings">
+            <h1>Spot on Temps</h1>
+            <div class="motto">Providing accurate and timely weather.</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center</h2>
+        <div class="thanks">
+            Thank you for completing the form.
+        </div>
+        
+
+    </main> 
+
+    <footer>
+        <p><span id="currentDate"></span></p>
+    </footer>
+
+    <script src="js/scripts7.js"></script>
+    <script src="js/getFormattedDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Ubuntu","Merriweather"]
+            }
+        });
+    </script>
+</body>
+</html>

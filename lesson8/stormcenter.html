@@ -28,28 +28,25 @@
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#" class="active">Gallery</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
         <h2>Storm Center</h2>
-        <div>
-            test
-        </div>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top"><div>Full Name*</div><input type="text" name="name" required pattern="[A-Za-z]"></label>
-                <label class="top"><div>Email</div><input type="email" name="email" placeholder="someone@gmail.com"></label>
-                <label class="top"><div>Phone Number*</div><input type="tel" name="phone" required></label>
-                <label class="top"><div>Zip Code*</div><input type="number" name="zip" required></label>
+                <label class="top">Full Name*<input type="text" name="name" required pattern="^[A-Za-z](\s?[A-Za-z]{5,50}$"></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                <label class="top">Zip Code*<input type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <label class="top"><div>Storm Date</div><input type="date" name="sdate"></label>
-                <label>Storm Type
+                <label class="top">Storm Date<input type="date" name="sdate"></label>
+                <label class="top">Storm Type
                     <select name="storm">
                         <option value="" disabled selected>Please Select &#9662</option>
                         <option value="flashFlood">Flash Flood</option>
@@ -59,11 +56,11 @@
                         <option value="tornado">Tornado</option>
                     </select>
                 </label>
-                <label class="flexy" for="rating">Storm Severity
+                <label class="top" for="rating">Storm Severity
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                 </label>
-                <label>Storm Region
+                <label class="top">Storm Region
                     <select name="stormRegion">
                         <option value="" disabled selected>Select Region &#9662</option>
                         <option value="preston">Preston</option>
@@ -75,7 +72,11 @@
                 <label class="sbs"><input type="radio" name="dangerlevel" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
                 <label class="sbs"><input type="radio" name="dangerlevel" value="no"> No</label>
-                <label>Additional Information or Comments<input type="textarea" name="comments"></label>
+                <label class="top">Additional Information or Comments<input type="textarea" name="comments"></label>
+                
+                <label class="top">Additional Information or Comments
+                    <textarea name="comments" rows="8" cols="50" ></textarea>
+                </label>
             </fieldset>
 
             <input type="submit" value="Save Storm Warning" class="submitBtn">

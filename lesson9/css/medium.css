@@ -34,6 +34,22 @@
     #heroarea img {
         width: 800px;
     } */
+
+    /* .cards section {
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cards p {
+        display: flex;
+        flex-direction: row;
+    } */
+
+    /* .cards img {
+        float: right;
+    } */
  
     .weathersummary {
         top: 15px;

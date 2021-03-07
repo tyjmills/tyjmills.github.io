@@ -57,6 +57,12 @@
         width: 1250px;
     } */
 
+    .cards {
+        display: grid;
+        /*d-template-columns: repeat(auto-fit, minmax(240px, 1fr));*/
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .weathersummary {
         top: 25px;
         left: 50px;

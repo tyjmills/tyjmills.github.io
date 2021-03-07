@@ -178,7 +178,8 @@ h3 {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /*d-template-columns: repeat(auto-fit, minmax(240px, 1fr));*/
+    grid-template-columns: 1fr;
 }
 
 .cards section {

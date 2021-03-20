@@ -44,10 +44,24 @@
     h2 {
         font-size: 35px;
     }
+
+    .galleryimages {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
 /* 
     #heroarea img {
         width: 1250px;
     } */
+
+    .cards {
+        display: grid;
+        /*d-template-columns: repeat(auto-fit, minmax(240px, 1fr));*/
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     .weathersummary {
         top: 25px;

@@ -26,6 +26,10 @@
     h2 {
         font-size: 30px;
     }
+
+    .galleryimages {
+        grid-template-columns: 1fr 1fr;
+    }
 /* 
     #heroarea img {
         width: 800px;
@@ -89,6 +93,10 @@
 
     .contact {
         font-size: 18px;
+    }
+
+    form label.sbs {
+        padding: .4rem 0;
     }
 
 }

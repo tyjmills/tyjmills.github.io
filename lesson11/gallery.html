@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 weather gallery page for weather site project.">
+    <title>Weather Gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Xanh+Mono&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/targettemp.png" alt="Target Temp Logo">
+        <section class="headings">
+            <h1>Spot on Temps</h1>
+            <div class="motto">Providing accurate and timely weather.</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="galleryimages">
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/lightningovercity.jpg' alt='Lightning Over City'> <figcaption>Lightning over the city.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/rainonground.jpg' alt='Rain on Ground'> <figcaption>Rain falling on the ground.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/iceonbranches.jpg' alt='Ice on Branches'> <figcaption>Branches covered in ice.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/rainbowoverfield.jpg' alt='Rainbow'> <figcaption>Rainbow over a field.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/lotsoflightning.jpg' alt='Lots of Lightning'> <figcaption>A lot of lighting in the sky.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/stormclouds.jpg' alt='Storm Clouds'> <figcaption>Storm clouds in the sky.</figcaption>
+            </figure> 
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/snowycabin.jpg' alt='Snowy Cabin'> <figcaption>Cabin in the snow.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/tornadoandlightning.jpg' alt='Tornado'> <figcaption>Tornado and lightning storm.</figcaption>
+            </figure>
+            <figure>
+                <img src='images/placeholder2.jpg' data-src='images/snowytrees.jpg' alt='Snowy Trees'> <figcaption>Snow covered trees.</figcaption>
+            </figure>
+        </div>
+
+    </main> 
+
+    <footer>
+        <p><span id="currentDate"></span></p>
+    </footer>
+
+    <script src="js/scripts7.js"></script>
+    <script src="js/getFormattedDate.js"></script>
+    <script src="js/lazy.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Ubuntu","Merriweather"]
+            }
+        });
+    </script>
+</body>
+</html>

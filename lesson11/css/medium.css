@@ -77,6 +77,10 @@
         height: 350px;
         float: right;
     }
+    
+    .eventcards {
+        width: 50%;
+    }
 
     #contactimg {
         display: flex;

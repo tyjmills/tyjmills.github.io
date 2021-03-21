@@ -1,7 +1,6 @@
-function toggleAnnouncement() {
-    var d = new Date();
-    var s = document.getElementById(+d.getDay());
-    s.style.display = (s.style.display == 'block') ? 'none' : 'block';
-}
-
-toggleAnnouncement();
+var d = new Date();
+var c = d.getDay();
+  
+if (c == 5) {
+    document.getElementById("pancake").style.display = "block";
+}  

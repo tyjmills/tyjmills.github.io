@@ -72,6 +72,10 @@
     h3 {
         font-size: 1.17em;
     }
+    
+    .eventcards {
+        width: 30%;
+    }
 
     .suminfo {
         font-size: 15px;

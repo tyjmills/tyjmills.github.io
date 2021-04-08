@@ -15,6 +15,14 @@
         font-size: 1rem;
     }
 
+    .suminfo {
+        font-size: 12px;
+    }
+
+    .sumsun, .sumtemp, .sumchill, .sumhumid, .sumspeed {
+        font-size: 12px;
+    }
+
     .joinbtn {
         bottom: 15px;
         right: 20px;

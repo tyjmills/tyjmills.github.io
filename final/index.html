@@ -43,11 +43,54 @@
 
         <div class="cards"></div>
 
-        <div class="joinreason">
-            The purpose of the chamber is to promote local businesses and organizations in Clinton. 
-            It is also a place for people to work together and find ways to improve the community in any way possible.
+        <div>
+            <div class="weatherinfo">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p class="suminfo">Currently: </p><p class="sumsun"><span id="current-weather"></span></p>
+                <br>
+                <p class="suminfo">Temperature: </p><p class="sumtemp"><span id="current-temp"></span>&deg; F</p>
+                <!-- <p id="current-temp" class="sumtemp"></p>&deg; F -->
+                <br>
+                <p class="suminfo">Humidity: </p><p class="sumhumid"><span id="humidity"></span>%</p>
+                <br>
+            </div>
+            <div class="forecasttable">
+                <p class="forecasttitle">3 Day Forecast</p>
+                <table>
+                    <tr>
+                        <th><span id="day1"></span></th>
+                        <th><span id="day2"></span></th>
+                        <th><span id="day3"></span></th>
+                    </tr>
+                    <tr>
+                        <td><img id="icon1"></td>
+                        <td><img id="icon2"></td>
+                        <td><img id="icon3"></td>
+                    </tr>
+                    <tr>
+                        <td id="temp1"></td>
+                        <td id="temp2"></td>
+                        <td id="temp3"></td>
+                    </tr>
+                </table>
+            </div>
         </div>
+        
 
+        <div class="homestuff">
+            <div class="homeinfo" id="home">
+                The purpose of the chamber is to promote local businesses and organizations in Clinton. 
+                It is also a place for people to work together and find ways to improve the community in any way possible.
+            </div>
+            <div class="homeinfo" id="event">
+                <ul>
+                    <li>Youth Summer Programs: May 3 - June 11</li>
+                    <li>Youth Contact Football: June 1 - July 2</li>
+                    <li>Heritage Day Celebration: July 7-10</li>
+                </ul>
+            </div>
+        </div>
 
         <div class="contactdiv">
             <address class="contactaddress">
@@ -78,6 +121,7 @@
     <script src="js/togglemenu.js"></script>
     <script src="js/business.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

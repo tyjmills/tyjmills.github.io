@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce for Clinton city homepage.">
+    <title>Clinton Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/chambericon.png" alt="Clinton Commerce Logo">
+        <section class="headings">
+            <h1>Clinton Chamber of Commerce</h1>
+            <!-- <div class="motto">Providing accurate and timely weather.</div> -->
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clinton.html">Clinton</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contactreason"><p class="contactname">Clinton Chamber of Commerce</p>
+            <br>
+            2525 N 2000 W 
+            <br>
+            Clinton, Utah 84015
+            <br>
+            <br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12019.084830439399!2d-112.07641139888914!3d41.13952028345062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1617852073252!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <form method="get" action="contactthanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name*<input type="text" name="name" required pattern="^[A-Za-z](\s?[A-Za-z]{5,50}$"></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Comment<textarea name="comments" rows="8" cols="50"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        </form>
+    </main>
+
+
+    <footer>
+        <p><span id="modifiedDate"></span></p>
+    </footer>
+
+    <script src="js/togglemenu.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Kiwi Maru","Lora","Roboto"]
+            }
+        });
+    </script>
+</body>
+</html>

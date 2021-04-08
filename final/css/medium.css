@@ -1,0 +1,44 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        height: 75px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #logo {
+        height: 75px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .joinbtn {
+        bottom: 15px;
+        right: 20px;
+    }
+
+    .joinbtn input {
+        font-size: 20px;
+    }
+
+    .welcome {
+        bottom: 15px;
+        left: 300px;
+    }
+
+    .welcome p {
+        font-size: 25px;
+    }
+
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

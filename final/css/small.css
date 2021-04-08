@@ -1,0 +1,336 @@
+main, footer {
+    margin: auto;
+    max-width: 95vw;
+    display: block;
+}
+
+header, footer {
+    background-color: #f24c00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+    margin: 2px 0;
+    padding-top: 10px;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    z-index: 100;
+}
+
+nav {
+    margin: 0 auto;
+    box-shadow: 0 2px 15px gray;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    flex-flow: column;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: White;
+    padding: 1rem;
+	text-align: left;
+    text-decoration: none;
+    background-color: #485696;
+    font-size: 0.95rem;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+}
+
+.navigation a:hover {
+	background-color: #e7e7e7;
+    color: black;
+    font-weight: bolder;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav .active {
+    font-weight: bolder;
+    background-color: #4F0892;
+}
+
+#heroarea {
+    position: relative;
+}
+
+#heroarea img {
+    width: 100%;
+    height: auto;
+}
+
+.joinbtn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.joinbtn input {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 10px;
+    background-color: #fc7a1e;
+    padding: 10px;
+    margin: 5px auto;
+    float: left;
+    color: white;
+}
+
+.welcome {
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+}
+
+.welcome p {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px auto;
+    float: left;
+    color: #fc7a1e;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.joinreason {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: 2px solid #000000;
+    background-color: #f9c784;
+    margin: 10px;
+    padding: 15px;
+}
+
+.clockimg {
+    height: 500px;
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+}
+
+.parkimg {
+    height: 500px;
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+}
+
+#cityinfo {
+    float: right;
+}
+
+#eventinfo {
+    float: left;
+}
+
+#eventinfo ul li {
+    list-style: none;
+}
+
+.cityinfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: 2px solid #000000;
+    background-color: #f9c784;
+    margin: 10px;
+    padding: 15px;
+    width: 600px;
+}
+
+
+.contactreason {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: 2px solid #000000;
+    background-color: #f9c784;
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
+}
+
+.contactname {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* --- Form Area --- */
+form {
+    font-family: 'Roboto', sans-serif;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 5px solid #b8ccc5;
+    /* border: 1px solid #445ba9; */
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 375px;
+    /* background-color: #b8ccc5; */
+}
+
+form legend {
+    color: black;
+    font-weight: bolder;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #fc7a1e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+ .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cards section {
+    align-items: center;
+    margin: 3px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #f9c784;
+}
+
+.cards h2, .cards h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cards p {
+    text-align: center;
+}
+
+.cards img {
+    box-shadow: 0 0 10px black;
+    width: 100%;
+    border-style: none;
+} 
+
+.thanks {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 25px;
+    padding-top: 0;
+}
+
+.contactdiv {
+    display: flex;
+    border: 2px solid #000000;
+    background-color: #b8ccc5;
+    margin: 10px;
+    padding: 15px;
+}
+
+#contactimg {
+    display: none;
+}
+
+.contacttitle {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.contact {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social img {
+    height: 25px;
+}
+
+footer {
+    font-family: 'Lora', serif;
+}

@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em) {
+    header {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    #logo {
+        height: 100px;
+    }
+
+    nav {
+    text-align: center;
+    }
+
+    .navigation { 
+        display: flex; 
+        flex-flow: row;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li { 
+        display: block;
+        flex: 1 1 100%; 
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    .joinbtn {
+        bottom: 25px;
+        right: 50px;
+    }
+
+    .joinbtn input {
+        font-size: 30px;
+    }
+
+    .welcome {
+        bottom: 25px;
+        left: 550px;
+    }
+
+    .welcome p {
+        font-size: 35px;
+    }
+
+    .submitbtn {
+        font-size: 30px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,53 @@
+{
+	"business": [
+		{
+			"name": "Walmart",
+			"phone": "(801) 779-3165",
+			"address": "1632 N 2000 W, Clinton, UT 84015",
+			"website": "https://www.walmart.com/",
+			"logo": "walmartlogo.jpg"
+		},
+		{
+			"name": "Lowes",
+			"phone": "(801) 820-1060",
+			"address": "1986 N 2000 W, Clinton, UT 84015",
+			"website": "https://www.lowes.com/",
+			"logo": "loweslogo.jpg"
+		},
+		{
+			"name": "Shaw Dance Studio",
+			"phone": "(801) 776-3607",
+			"address": "916 W 1800 N, Clinton, UT 84015",
+			"website": "https://www.shawdance.com/",
+			"logo": "shawdancelogo.jpg"
+		},
+		{
+			"name": "Maverik",
+			"phone": "(801) 776-2379",
+			"address": "1036 W 1800 N, Clinton, UT 84015",
+			"website": "https://maverik.com/",
+			"logo": "maveriklogo.png"
+		},
+		{
+			"name": "Maurices",
+			"phone": "(801) 525-5258",
+			"address": "1808 W 1800 N Suite C, Clinton, UT 84015",
+			"website": "https://locations.maurices.com/",
+			"logo": "mauriceslogo.jpg"
+		},
+		{
+			"name": "Lynn Wood Service Center",
+			"phone": "(801) 776-2886",
+			"address": "1803 W 1800 N #1, Clinton, UT 84015",
+			"website": "http://www.lynnwoodservicecenter.com/",
+			"logo": "lynnwoodlogo.jpg"
+		},
+		{
+			"name": "Zaxbys",
+			"phone": "(801) 776-2222",
+			"address": "1781 N 2000 W, Clinton, UT 84015",
+			"website": "https://www.zaxbys.com/",
+			"logo": "zaxbyslogo.jpg"
+		}
+	]
+}

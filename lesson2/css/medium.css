@@ -1,8 +1,0 @@
-@media only screen and (min-width: 32.5em) {
-    h1 {
-        font-size: 40px;
-    }
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
-}

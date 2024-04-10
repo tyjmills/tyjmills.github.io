@@ -2,8 +2,6 @@ sessionStorage.setItem("app_id", "9f3439f8");
 sessionStorage.setItem("app_key", "7474af9fc7af0b197512891921b6ee66");
 sessionStorage.setItem("endpoint", "https://api.edamam.com/search");
 
-const 
-
 function getRecipies() {
     const ingredient = document.getElementById("ingredient").value;
     const app_id = sessionStorage.getItem("app_id");

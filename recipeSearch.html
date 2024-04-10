@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 assignment portal for Tyler Mills.">
+    <title>Recipe Recommendation</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/recipeAppStyles.css">
+    <script src="js/result.js"></script>
+</head>
+<body>
+    <div id="mainapp">
+        <header>
+            <div id="circle">
+                <h3>Love of Cooking</h3>
+            </div>
+            <h1>Recipe Box</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Recommended</a></li>
+                    <li><a href="./recipeSearch.html">Search</a></li>
+                </ul>
+            </nav>
+        </header>    
+    
+        <main>
+            <!-- <section id="search-recipes">
+                <h3>Search Recipes</h3>
+                <p>Find recipes based on the things you like! </p> -->
+
+            <h1 class="p-3 bg-warning text-white">Recipe Search</h1>
+            <h3 class="p-3 text-warning">Enter your ingredient</h3>
+                <!-- <div id="search-recipes-list"></div> -->
+                <div class="container-fluid">
+                    <input class="form-control form-control-lg" type="text" placeholder="Ingredient" id="ingredient">
+                </div>
+                <div class="p-3">
+                    <button class="btn btn-warning btn-lg" onclick="getRecipies()">Submit</button>
+                </div>
+                <div class="container-fluid d-flex row justify-content-evenly" id="results">
+                </div>
+
+
+                <!-- <div class="container-fluid">
+                    <input class="form-control form-control-lg" type="text" placeholder="Ingredient" id="ingredient">
+                </div>
+                <form>
+                    <input id="recipe-search" type="text" name="recipe-search">
+                    <button type="button" onclick="getRecipies()">Search</button>
+                </form>
+                <div class="container-fluid d-flex row justify-content-evenly" id="results"> -->
+                <!-- </div> -->
+               
+               
+                <!-- <section id="search-results" class="hidden">
+                    <h4>
+                        "Results for "
+                        <span id="search-value"></span>
+                    </h4>
+                    <div id="search-results-list"></div>
+                </section> -->
+            <!-- </section> -->
+        </main>
+        
+        <footer>
+            <p> &bull; Tyler Mills &bull; Utah &bull; <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        </footer>
+    </div>
+    
+
+    
+    <!-- <script type="text/javascript">
+        bookSearch.updateFavoritesList();
+    </script> -->
+</body>
+</html>

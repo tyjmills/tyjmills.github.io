@@ -1,0 +1,80 @@
+body {
+    width: 800px;
+    margin: auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    position: relative;
+    background-color: lightgrey;
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top-right-radius: 15px 15px;
+    border-top-left-radius: 15px 15px;
+}
+#circle {
+    position: absolute;
+    background: palegoldenrod;
+    height: 60px;
+    right: 50px;
+    top: 20px;
+    color: darkolivegreen;
+    z-index: 7;
+}
+h1, h2, h3, h4, h5 , h6 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 16px;
+    margin-left: 25px;
+}
+nav {
+    font-size: 1.2em;
+}
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 100%;
+    border-top: 2px solid darkolivegreen;
+    border-bottom: 2px solid darkolivegreen;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+main {
+    background-color: lightgrey;
+    padding: 30px;
+}
+footer {
+    background-color: lightgray;
+    margin-bottom: 32px;
+    padding-left: 25px;
+    text-align: center;
+    font-size: small;
+    padding-bottom: 16px;
+    border-top: 1px solid darkolivegreen;
+    border-bottom-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+.hero {
+    position: relative;
+}
+.hero .logo {
+    position: absolute;
+    left: calc(50% - 60px);
+    bottom: -10px;
+    background-color: white;
+}
+#loading {
+    display: none;
+  }
